@@ -1,0 +1,20 @@
+@import './css-reset.css';
+
+:root {
+    --white: #ffffff;
+    --white-50: #f0f0f0;
+    --blue: #471aaa;
+}
+
+@font-face{
+    font-family: Lalezar;
+    src: url('./../fonts/Lalezar-Regular.ttf');
+}
+
+body {
+    background-color: var(--white-50);
+}
+
+*, body {
+    font-family: Lalezar;
+}
